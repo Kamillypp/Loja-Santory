@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #2c2c2c 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            margin: 0;
+            padding: 0;
+        }
+        header li {
+            list-style: none;
+            display: inline;
+            margin-left: 15px;
+        }
+        header #branding {
+            float: left;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .product {
+            width: 300px;
+            background-color: #222;
+            margin: 5px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .product h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .product p {
+            font-size: 18px;
+        }
+        .btn {
+            display: inline-block;
+            background: #e8491d;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Santory Tecnologia</h1>
+            </div>
+            <nav>
+                <ul>       
+                    <li><a href="https://wa.me/5562993858584?text=Vim%20do%20Site%20Santory%20Tecnologia%20">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section>
+        <div class="container">
+            <h1>Nossos Produtos</h1>
+            <div class="products">
+                <div class="product">
+                    <img src="digital.jpeg" alt="Carteira digital">
+                    <h3>Carteira digital</h3>
+                    <p>R$ 34,90</p>
+                    <a href="https://ev.braip.com/ref?pv=pro9qj4g&af=afi3v7q60v" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="fisica.jpeg" alt="Produto 2">
+                    <h3>Carteira física</h3>
+                    <p>R$ 59,90</p>
+                    <a href="https://ev.braip.com/ref?pv=pro9qj4g&af=afi3v7q60v" class="btn">Comprar</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy;Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
